@@ -25,7 +25,9 @@ yarn start
 ```
 
 ### 外觀
-  - [profile 頁面](https://github.com/ChaoTzuJung/github-dashboard/blob/master/public/image/profile.png?raw=true)
-  - [all repo_頁面](https://github.com/ChaoTzuJung/github-dashboard/blob/master/public/image/all_repo.png?raw=truea)
+  **Profile**
+  ![profile 頁面](https://github.com/ChaoTzuJung/github-dashboard/blob/master/public/image/profile.png?raw=true)
+   **All Repo**
+  ![all repo_頁面](https://github.com/ChaoTzuJung/github-dashboard/blob/master/public/image/All_repo.png?raw=true)
   
   
