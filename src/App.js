@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import axios from 'axios'
-import { Layout, Menu, Icon } from 'antd';
+import { Layout } from 'antd';
 
 import './App.css';
 import 'antd/dist/antd.css';
@@ -117,7 +116,7 @@ class App extends Component {
                   user_data={this.state.user_data}
                   events_data={this.state.events_data}
                   followers_data={this.state.followers_data}
-                  followering_data={this.state.followering_data}
+                  following_data={this.state.following_data}
                   repo_data={this.state.repo_data}
               />
             </div>

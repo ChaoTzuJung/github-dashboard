@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Profile from './Profile';
 import Repo from './Repo';
 
@@ -17,7 +17,7 @@ class Main extends Component {
                             user_data={this.props.user_data}
                             events_data={this.props.events_data}
                             followers_data={this.props.followers_data}
-                            followering_data={this.props.followering_data}
+                            following_data={this.props.following_data}
                         />
                     }
                 />
