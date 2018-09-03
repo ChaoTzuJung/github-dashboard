@@ -1,0 +1,34 @@
+import React, { Component } from 'react';
+import { Link, Switch, Route } from 'react-router-dom';
+import Profile from './Profile';
+import Repo from './Repo';
+
+class Main extends Component {
+    render() {
+        return (
+            <Switch>
+                <Route
+                    exact
+                    path='/'
+                    // component={Profile}
+                    /* all this props are Main receive */
+                    render={(props) =>
+                        <Profile
+                            user_data={this.props.user_data}
+                            events_data={this.props.events_data}
+                            followers_data={this.props.followers_data}
+                            followering_data={this.props.followering_data}
+                        />
+                    }
+                />
+                <Route
+                    exact
+                    path='/repo'
+                    render={(props) => <Repo repo_data={this.props.repo_data} />}
+                />
+            </Switch>
+        )
+    }
+}
+
+export default Main
